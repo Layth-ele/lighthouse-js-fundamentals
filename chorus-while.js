@@ -49,8 +49,27 @@
 //////////////////////////////////////////////////////////////////////////////
 */
 
-const chorus = "Let's dance!";
-for (let repeat = 0; repeat < 10; repeat++) {
-  console.log(chorus);
-}
-console.log("Until the sun comes up!");
+// const chorus = "Let's dance!";
+// for (let repeat = 0; repeat < 10; repeat++) {
+//   console.log(chorus);
+// }
+// console.log("Until the sun comes up!");
+
+/*
+//////////////////////////////////////////////////////////////////////////////
+                              Loopy Lighthouse Assynment
+//////////////////////////////////////////////////////////////////////////////
+*/
+
+// let num = 100;
+
+// while (num <= 200) {
+//   num % 3 === 0 && num % 4 !== 0
+//     ? console.log(" Loopy")
+//     : num % 4 === 0 && num % 3 !== 0
+//     ? console.log("Lighthouse")
+//     : num % 3 === 0 && num % 4 === 0
+//     ? console.log("LoopyLighthouse")
+//     : console.log(num);
+//   num++;
+// }
