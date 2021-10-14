@@ -136,3 +136,18 @@
 // if (!raining) {
 //   console.log("Leave your umbrella at home!");
 // }
+
+/*
+///////////////////////////////////////////////////////////////////////////////
+                                Which School exercise 
+//////////////////////////////////////////////////////////////////////////////
+*/
+
+// const whichSchool = function (age) {
+//   return age <= 13
+//     ? `you are ${age}, you are eligible to go to Elementary School`
+//     : age <= 18 && age > 13
+//     ? `you are ${age}, you are eligible to go to Secondary School`
+//     : `you are ${age}, you are eligible to go to Lighthouse Labs`;
+// };
+// console.log(whichSchool(44));
