@@ -27,3 +27,16 @@ console.log("Kitchen stuff to pack:");
 for (let i = 0; i < packingList.length; i++) {
   console.log(packingList[i]);
 }
+/*
+//////////////////////////////////////////////////////////////////////////////
+                                 exercise 2
+                      Iterating Over an Array With while
+//////////////////////////////////////////////////////////////////////////////
+*/
+
+console.log("Kitchen stuff to pack:");
+let i = 0;
+while (i < packingList.length) {
+  console.log(packingList[i]);
+  i++;
+}
