@@ -42,7 +42,7 @@ while (num <= 200) {
 /*
 ############################################################################
 
-                    <<<<< Voting Station Calculation  Assignment3 >>>>
+                    <<<<< Voting Station Calculation Assignment3 >>>>
 ############################################################################
 */
 
@@ -71,12 +71,12 @@ console.log(chooseStations(stations));
 /*
 ############################################################################
 
-                    <<<<< X Marks the Perfect Shot  Assignment4 >>>>
+                    <<<<< X Marks the Perfect Shot Assignment4 >>>>
 ############################################################################
 */
 
 const moves = ["north", "north", "west", "west", "north", "east", "north"];
-let finalPosition = (moves) => {
+const finalPosition = (moves) => {
   let x = 0;
   let y = 0;
   for (let move of moves) {
@@ -93,3 +93,17 @@ let finalPosition = (moves) => {
   return [x, y];
 };
 console.log(finalPosition(moves));
+
+/*
+############################################################################
+
+                    <<<<< Age calculator Assignment 5 >>>>
+############################################################################
+*/
+
+const ageCalculator = (name, yearOfBirth, currentYear) => {
+  const age = currentYear - yearOfBirth;
+  return `${name} is ${age} years old.`;
+};
+console.log(ageCalculator("Miranda", 1983, 2015));
+console.log(ageCalculator("Ferdinand", 1988, 2015));
