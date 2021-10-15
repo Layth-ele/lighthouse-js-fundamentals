@@ -97,7 +97,7 @@ console.log(finalPosition(moves));
 /*
 ############################################################################
 
-                    <<<<< Age calculator Assignment 5 >>>>
+                    <<<<< Age Calculator Assignment 5 >>>>
 ############################################################################
 */
 
@@ -107,3 +107,15 @@ const ageCalculator = (name, yearOfBirth, currentYear) => {
 };
 console.log(ageCalculator("Miranda", 1983, 2015));
 console.log(ageCalculator("Ferdinand", 1988, 2015));
+
+/*
+############################################################################
+
+                    <<<<< How Many Hundreds Assignment 6 >>>>
+############################################################################
+*/
+
+const howManyHundreds = (num) => {
+  return Math.floor(num / 100);
+};
+console.log(howManyHundreds(89));
