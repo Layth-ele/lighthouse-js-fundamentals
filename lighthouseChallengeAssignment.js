@@ -67,3 +67,29 @@ const stations = [
 ];
 
 console.log(chooseStations(stations));
+
+/*
+############################################################################
+
+                    <<<<< X Marks the Perfect Shot  Assignment4 >>>>
+############################################################################
+*/
+
+const moves = ["north", "north", "west", "west", "north", "east", "north"];
+let finalPosition = (moves) => {
+  let x = 0;
+  let y = 0;
+  for (let move of moves) {
+    move === "north"
+      ? y++
+      : move === "south"
+      ? y--
+      : move === "east"
+      ? x++
+      : move === "west"
+      ? x--
+      : "NONE";
+  }
+  return [x, y];
+};
+console.log(finalPosition(moves));
